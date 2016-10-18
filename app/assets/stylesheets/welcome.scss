@@ -1,0 +1,98 @@
+  body {
+      position: relative;
+  }
+
+  #pagetop {
+    margin-top: 50px;
+    background-color:#040301;
+    background-image: url(/assets/4.jpg);
+    color:#fff;
+    height:auto;
+  }
+  .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  .navbar {
+      margin-bottom: 0px;
+  }
+
+ #yourElement {
+  -webkit-animation-duration: 4s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+  /*#section1 {padding-top:50px;height:auto;color: #fff; background-color: #A92323;}
+  #section2 {padding-top:50px;height:auto;color: #fff; background-color: #300144;}
+  #section31 {padding-top:50px;height:auto;color: #fff; background-color: #174700;}
+  #section32 {padding-top:50px;height:auto;color: #fff; background-color: #174700;}
+  #section33 {padding-top:50px;height:auto;color: #fff; background-color: #174700;}
+  #section41 {padding-top:50px;height:auto;color: #fff; background-color: #154360;}
+  #section42 {padding-top:50px;height:auto;color: #fff; background-color: #363636;}*/
+
+
+#footer {
+    background-color: black;
+} 
+.navbar-nav li{
+  margin-left:20px !important;
+  margin-right:50px !important;
+}
+.navbar-nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.nav.navbar-nav {
+  float: right;
+}
+ul.dropdown-menu {
+    background-color: #2C2C2C;
+}
+.dropdown-menu a {
+    color: #6D6D6D !important;
+}
+
+.row {
+  margin: 50px 0px;
+}
+#pagetop img {
+    max-height: 220px;
+}
+#pagetop h1, #pagetop h2, #pagetop h3 {
+    font-family: Courier;
+}
+a {
+    color: #2e86d2;
+    text-decoration: blink;
+}
+
+.container {
+  margin: 0px 50px;
+}
+
+hr.style18 { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: #949494; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+hr.style18:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #949494; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
+
+hr.style12 {
+  height:1px; border:none; color:#000; background-color:#000; width:60%; text-align:center; margin: 0 auto;
+}
+h1,h2{
+font-family: 'Black Ops One', cursive !important;
+}

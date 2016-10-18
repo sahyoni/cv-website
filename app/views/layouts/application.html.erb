@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MGS</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+<meta property="og:locale" content="en_US"/>
+
+ <meta property="og:title" content="Mohammad Sahyoni CV" />
+
+ <meta property="og:type" content="Website" />
+
+ <meta property="og:site_name" content="MGS">
+
+ <meta property="og:url" content="http://www.mohammad-sahyoni.cv/" />
+
+ <meta property="og:image" content="http://www..tk/assets/1.jpg" />
+
+ <meta property="og:description"        content="this is mohammad ghaleb sahyoni personal website builded and designed by mohammad ghaleb sahyoni" />
+
+ <meta name="description" content="mohammad sahyoni">
+ 
+
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <script>
+  new WOW().init();
+  </script>
+  
+</head>
+
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<div class="container">
+  <nav class="navbar navbar-inverse navbar-fixed-top col-xs-12" data-spy="affix" data-offset-top="150">
+ 
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"> Mohammad Sahyoni </a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">BACKGROUND & EDUCATION</a></li>
+          <li><a href="#section2">EXPERIENCES</a>
+          <li><a href="#section3">SKILLS</a></li>
+          </li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section4">SUMMARY</a>
+              <li><a href="#section5">LANGUAGES</a></li>
+              <li><a href="#section6">STRENGTHS</a></li>
+
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  
+</nav>
+
+</div>
+
+
+
+
+<%= yield %>
+
+
+  <div id="footer" style="background: #0E0E0E">
+      <div class="container">
+        <p class="muted credit">Website ® to <a href="/">Mohammad Sahyoni</a> <span class="pull-right"><a href="https://www.linkedin.com/in/mohammad-sahyoni-7ba265118?trk=nav_responsive_tab_profile_pic" target="_blank"><i class="fa fa-linkedin-square fa-2x fa-fw fa-fw " aria-hidden="true" id="yourElement"></i></a>
+            <a href="https://www.facebook.com/mohammad.sahyuni1" target="_blank"><i class="fa fa-facebook-official fa-2x fa-fw " aria-hidden="true" id="yourElement"></i></a>
+            <a href="https://github.com/sahyoni" target="_blank"><i class="fa fa-github fa-2x fa-fw " aria-hidden="true" id="yourElement"></i></a></span> .</p>
+      </div>
+    </div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-86420259-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>
