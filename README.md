@@ -1,7 +1,7 @@
 # cv-website 
 
-##Here is my personal CV online.
-###what is used:
+## Here is my personal CV online.
+### what is used:
 * ruby
 * ruby in rails
 * font_awesome
